@@ -10,9 +10,9 @@ Podczas zajęć potrzebne będzie użycie takich znaczników jak
    - Headings `#`
    - Lista `-`
    - Link do obrazka `![Tux, the Linux mascot](http://obrazek)`
-   - formatowanie jako "kod" \` <kod> \` 
+   - formatowanie jako "kod" \` <kod> \ `  
 ### Squash
-Squash jest sposobem na przepisanie historii commitów; ta akcja pomaga oczyścić i uprościć historię commitów przed podzieleniem się swoją pracą z członkami zespołu. Squash commitów oznacza, że bierzesz zmiany z jednego commitu i dodajesz je do commitu macierzystego.
+Squash jest ssposobem na przepisanie historii commitów; ta akcja pomaga oczyścić i uprościć historię commitów przed podzieleniem się swoją pracą z członkami zespołu. Squash commitów oznacza, że bierzesz zmiany z jednego commitu i dodajesz je do commitu macierzystego.
    
 Aby dokonac squasha w terminalu, należy użyć interkatywnej funkcji rebase za pomocą komendy `git rebase -i`. Komenda powoduje otwarcie listy z historią commitów w edytorze VIM. Aby rozpocząć edycje tekstu za kursorem należy naciśnąć przycisk `i` na klawiaturze. Wówczas należy wybrać z listy commitów te które, powinny zostać zesquashowane. 
 ![Squash1](screenshots/squash1.png)
